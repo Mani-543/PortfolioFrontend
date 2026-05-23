@@ -136,9 +136,9 @@ export default function ContactSection() {
                     className="mt-12 grid md:grid-cols-3 gap-8"
                 >
                     {[
-                        { label: 'Email', value: 'your.email@example.com', icon: '✉️' },
-                        { label: 'Phone', value: '+1 (555) 123-4567', icon: '📱' },
-                        { label: 'Location', value: 'Your City, Country', icon: '📍' }
+                        { label: 'Email', value: 'nmanikanta543@gmail.com', icon: '✉️' },
+                        { label: 'Phone', value: '+91 7619200661', icon: '📱' },
+                        { label: 'Location', value: 'Bengaluru, India', icon: '📍' }
                     ].map((contact, index) => (
                         <div key={index} className="text-center">
                             <div className="text-3xl mb-3">{contact.icon}</div>

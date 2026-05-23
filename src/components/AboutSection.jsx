@@ -53,7 +53,7 @@ export default function AboutSection() {
                         className="h-96 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-lg flex items-center justify-center border border-blue-500/20 overflow-hidden"
                     >
                         <img
-                            src="/about-image.jpg"
+                            src="images.png"
                             alt="About Me"
                             className="w-full h-full object-cover"
                         />

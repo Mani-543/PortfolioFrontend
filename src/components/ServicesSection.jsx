@@ -28,7 +28,7 @@ export default function ServicesSection() {
             description: 'Secure login systems and role-based access control'
         },
         {
-            icon: '🚀',
+            icon: '🎯',
             title: 'Performance Optimization',
             description: 'Code optimization and database query performance tuning'
         },
@@ -38,9 +38,9 @@ export default function ServicesSection() {
             description: 'Complete e-commerce solutions with payment integration'
         },
         {
-            icon: '🤝',
-            title: 'Technical Consulting',
-            description: 'Expert guidance on architecture and technology selection'
+            icon: '🚀',
+            title: 'Deployment & Hoisting Support',
+            description: 'Deploying full-stack applications and providing hosting, server configuration, and production support.'
         }
     ]
 
