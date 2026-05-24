@@ -9,9 +9,9 @@ export default function ProjectsSection() {
             id: 1,
             title: 'Task Management App',
             description: 'Collaborative task management tool...',
-            technologies: ['React', 'Tailwind CSS', 'Express', 'MongoDB', 'Socket.io'],
+            technologies: ['React', 'Tailwind CSS', 'Node.Js','Express.Js', 'MongoDB', 'Rest API','JWT Authentication'],
             image: taskImg,
-            link: '#'
+            link: 'https://taskmanagementprojectt.netlify.app/'
         },
         {
             id: 2,
@@ -19,15 +19,15 @@ export default function ProjectsSection() {
             description: 'Interactive dictionary application...',
             technologies: ['HTML', 'Tailwind CSS', 'Dictionary API', 'JavaScript'],
             image: dictImg,
-            link: '#'
+            link: 'https://dictionarysearchapplication.netlify.app/'
         },
         {
             id: 3,
             title: 'Movie Review Application',
             description: 'Movie review platform...',
-            technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB'],
+            technologies: ['React.Js', 'Tailwind CSS', 'JavaScript', 'HTML', 'OMDB API'],
             image: movieImg,
-            link: '#'
+            link: 'https://moviereviewappp.netlify.app/'
         }
     ]
 
@@ -52,7 +52,7 @@ export default function ProjectsSection() {
                             transition={{ duration: 0.6, delay: index * 0.1 }}
                             viewport={{ once: true }}
                             whileHover={{ y: -10 }}
-                            className="bg-dark-900/50 rounded-lg overflow-hidden border border-gray-700 hover:border-blue-500/50 transition h-full flex flex-col"
+                            className="bg-dark-900/50 rounded-lg overflow-hidden border border-blue-500/30 hover:border-purple-500/60 transition h-full flex flex-col"
                         >
                             <div className="h-48 overflow-hidden">
                                 <img
@@ -79,9 +79,11 @@ export default function ProjectsSection() {
 
                                 <a
                                     href={project.link}
-                                    className="text-blue-400 hover:text-blue-300 transition font-semibold inline-flex items-center"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn-primary text-white hover:shadow-lg hover:shadow-blue-600/50 cursor-pointer w-fit"
                                 >
-                                    View Project →
+                                    View Project
                                 </a>
                             </div>
                         </motion.div>

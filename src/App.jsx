@@ -47,9 +47,11 @@ export default function App() {
                         >
                             <a
                                 href="#contact"
-                                className="px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full font-semibold text-white hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300"
+                                className="px-6 py-2 border-2 border-yellow-400 rounded-full hover:bg-yellow-400/40 hover:border-yellow-300 transition-all duration-300"
                             >
-                                Hire Me
+                                <span className="bg-gradient-to-r from-yellow-400 to-red-500 bg-clip-text text-transparent font-bold">
+                                    Hire Me
+                                </span>
                             </a>
                         </motion.li>
                     </ul>
@@ -157,9 +159,11 @@ export default function App() {
                         <a
                             href="#contact"
                             onClick={() => setMenuOpen(false)}
-                            className="block text-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full font-semibold text-white"
+                            className="px-6 py-3 border-2 border-yellow-800 rounded-full block text-center hover:bg-yellow-200/40 hover:border-yellow-100 transition-all"
                         >
-                            Hire Me
+                            <span className="bg-gradient-to-r from-yellow-200 to-red-300 bg-clip-text text-transparent font-bold">
+                                Hire Me
+                            </span>
                         </a>
                     </li>
 
@@ -204,25 +208,24 @@ export default function App() {
                                 className="flex md:justify-end items-center gap-6"
                             >
                                 <a
-                                    href="#"
-                                    className="w-10 h-10 bg-blue-500/20 rounded-full flex items-center justify-center hover:bg-blue-500/40 transition text-blue-400"
-                                >
-                                    f
-                                </a>
-
-                                <a
-                                    href="#"
-                                    className="w-10 h-10 bg-blue-500/20 rounded-full flex items-center justify-center hover:bg-blue-500/40 transition text-blue-400"
-                                >
-                                    𝕏
-                                </a>
-
-                                <a
-                                    href="#"
+                                    href="https://www.linkedin.com/in/n-manikanta-b133ma114/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="w-10 h-10 bg-blue-500/20 rounded-full flex items-center justify-center hover:bg-blue-500/40 transition text-blue-400"
                                 >
                                     in
                                 </a>
+
+                                <a
+                                    href="https://www.naukri.com/mnjuser/profile"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-10 h-10 bg-blue-500/20 rounded-full flex items-center justify-center hover:bg-blue-500/40 transition text-blue-400"
+                                >
+                                    🔎
+                                </a>
+
+
                             </motion.div>
                         </div>
 
@@ -234,7 +237,7 @@ export default function App() {
                                 viewport={{ once: true }}
                                 className="text-gray-400 mb-2"
                             >
-                                &copy; 2024 MERN Stack Developer. All Rights Reserved
+                                &copy; 2026 MERN Stack Developer. All Rights Reserved
                             </motion.p>
                         </div>
 
