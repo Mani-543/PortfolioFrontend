@@ -22,12 +22,12 @@ export default function AboutSection() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
-                        className="h-96 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-lg flex items-center justify-center border border-blue-500/20 overflow-hidden"
+                        className="h-[500px] rounded-2xl overflow-hidden border border-blue-500/20 bg-gradient-to-br from-blue-500/10 to-purple-500/10 shadow-lg"
                     >
                         <img
-                            src="images.png"
+                            src="/image.png"
                             alt="About Me"
-                            className="w-full h-full object-cover"
+                            className=" object-cover object-top"
                         />
                     </motion.div>
 

@@ -66,7 +66,7 @@ export default function HeroSection() {
                 >
                     <div className="w-56 h-56 sm:w-72 sm:h-72 md:w-96 md:h-96 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-full flex items-center justify-center border-2 border-blue-500/30 overflow-hidden shadow-2xl shadow-blue-500/50">
                         <img
-                            src="/profile.jpg"
+                            src="/profile.png"
                             alt="Profile"
                             className="w-full h-full object-cover rounded-full"
                         />
