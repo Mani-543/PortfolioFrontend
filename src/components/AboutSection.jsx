@@ -31,6 +31,7 @@ export default function AboutSection() {
                         />
                     </motion.div>
 
+                    
                     {/* Right Side - Content */}
                     <motion.div
                         initial={{ opacity: 0, x: 30 }}
