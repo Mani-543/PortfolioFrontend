@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import taskImg from "../assets/task.png";
-import dictImg from "../assets/dictionary.png";
+import ElectroImg from "../assets/Electro.png";
 import movieImg from "../assets/movie.png";
 
 export default function ProjectsSection() {
@@ -15,11 +15,11 @@ export default function ProjectsSection() {
         },
         {
             id: 2,
-            title: 'Dictionary Application',
-            description: 'Interactive dictionary application...',
-            technologies: ['HTML', 'Tailwind CSS', 'Dictionary API', 'JavaScript'],
-            image: dictImg,
-            link: 'https://dictionarysearchapplication.netlify.app/'
+            title: 'Ecommerce Application',
+            description: 'Interactive Ecommerce application...',
+            technologies: ['React.js', 'Tailwind CSS', 'Node.js','Express.js', 'MongoDB', 'Rest API', 'JWT Authentication'],
+            image: ElectroImg,
+            link: 'https://ecommerceapo.netlify.app'
         },
         {
             id: 3,
