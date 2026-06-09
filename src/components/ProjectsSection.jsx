@@ -30,6 +30,7 @@ export default function ProjectsSection() {
             link: 'https://moviereviewappp.netlify.app/'
         }
     ]
+    
 
 
     return (
