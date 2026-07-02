@@ -225,6 +225,15 @@ export default function App() {
                                     🔎
                                 </a>
 
+                                 <a
+                                    href="https://github.com/Mani-543"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-10 h-10 bg-blue-500/20 rounded-full flex items-center justify-center hover:bg-blue-500/40 transition text-blue-400"
+                                >
+                                    💼
+                                </a>
+
 
                             </motion.div>
                         </div>
