@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import taskImg from '../assets/task.png'
 import ElectroImg from '../assets/Electro.png'
-import movieImg from '../assets/movie.png'
+import JobImg from '../assets/job.png'
 
 export default function ProjectsSection() {
     const projects = [
@@ -17,7 +17,7 @@ export default function ProjectsSection() {
             liveUrl: 'https://ecommerceapo.netlify.app/'
         },
         {
-            id: 2,
+            id: 3,
             title: 'Task Managment System',
             category: 'Productivity App',
             description: 'A full-stack task management application where users can register, log in securely, create, update, delete, and organize tasks with priorities and due dates.',
@@ -28,15 +28,14 @@ export default function ProjectsSection() {
             liveUrl: 'http://taskmanagementprojectt.netlify.app/',
         },
         {
-            id: 3,
-            title: 'Capstone: Smart Inventory Dashboard',
-            category: 'Capstone Project',
-            description: 'A complete capstone project featuring role-based access, inventory tracking, analytics views, and real-time reporting for small businesses and warehouse operations.',
-            technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Admin Dashboard'],
-            image: movieImg,
-            frontendRepo: 'https://github.com/yourusername/inventory-dashboard-frontend',
-            backendRepo: 'https://github.com/yourusername/inventory-dashboard-backend',
-            liveUrl: 'https://inventory-dashboard-demo.netlify.app'
+            id: 2,
+            title: 'Job Application Tracker',
+            description: 'A MERN stack web application for managing job applications efficiently. Users can securely add, update, delete, and track applications with real-time status updates.',
+            technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose'],
+            image: JobImg,
+            frontendRepo: 'https://github.com/Mani-543/Job-Application-Tracker',
+            backendRepo: 'https://github.com/Mani-543/Job-Application-TrackerBE',
+            liveUrl: 'https://jobapplicationtrackerrr.netlify.app/'
         }
     ]
 
